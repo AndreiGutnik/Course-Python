@@ -10,20 +10,16 @@ students['andrey'] = 268
 print(students)
 students['andrey'] = 177
 print(students)
-students.setdefault('oleg')
+students.setdefault('oleg')  # Добавление элемента
 print(students)
-students.pop('oleg')
+students.pop('oleg')  # Удаление элемента
 print(students)
-print(students.keys())
+print(students.keys())  # Просмотр ключей
 print(type(students.keys()))
-key_list = list(students.keys())
+key_list = list(students.keys())  # Преобразование в тип Список
 print(key_list)
 print(type(key_list))
-print(students.values())
+print(students.values())  # Просмотр значений
 print(type(students.values()))
-print('anna' in students)
+print('anna' in students)  # Проверка существования ключа
 print('peter' not in students)
-
-
-
-gfhgh
