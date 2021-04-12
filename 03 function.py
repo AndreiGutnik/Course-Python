@@ -184,3 +184,4 @@ while True:
     #    print(e, type(e))
     finally:
         print('Завершено!')
+
